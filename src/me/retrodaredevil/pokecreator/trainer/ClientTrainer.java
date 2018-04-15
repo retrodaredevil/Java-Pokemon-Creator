@@ -2,7 +2,7 @@ package me.retrodaredevil.pokecreator.trainer;
 
 import java.util.List;
 
-import org.eclipse.jdt.annotation.Nullable;
+import com.sun.istack.internal.Nullable;
 import org.lwjgl.opengl.Display;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;

@@ -1,22 +1,17 @@
 package me.retrodaredevil.pokecreator;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
-
-import org.lwjgl.opengl.Display;
-import org.newdawn.slick.AppGameContainer;
-import org.newdawn.slick.BasicGame;
-import org.newdawn.slick.GameContainer;
-import org.newdawn.slick.Graphics;
-import org.newdawn.slick.SlickException;
-
 import me.retrodaredevil.pokecreator.map.MapHandler;
 import me.retrodaredevil.pokecreator.resources.ResourcePack;
 import me.retrodaredevil.pokecreator.resources.ServerType;
 import me.retrodaredevil.pokecreator.resources.SoundType;
 import me.retrodaredevil.pokecreator.screens.TitleScreen;
 import me.retrodaredevil.pokecreator.trainer.ClientTrainer;
+import org.lwjgl.opengl.Display;
+import org.newdawn.slick.*;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * @author retro

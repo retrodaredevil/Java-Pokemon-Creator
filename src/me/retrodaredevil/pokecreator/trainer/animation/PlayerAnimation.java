@@ -25,7 +25,8 @@ public class PlayerAnimation {
 			Image image = new Image(pack.getStream("textures/player/player.png"), "textures/player/player.png", false);
 			
 			int amount = image.getWidth() / 15;
-			
+			System.out.println("amount: " + amount);
+
 			sheet = new SpriteSheet(image, amount, amount);
 			
 		} catch (SlickException e) {
@@ -206,6 +207,7 @@ public class PlayerAnimation {
 				g+=4;
 			}
 			Image set = sheet.getSprite(x, y + g).getFlippedCopy(flipped, false);
+			System.out.println("updateImage called. width: " + set.getWidth());
 			set.setFilter(Image.FILTER_NEAREST);
 			if(girl){
 				gimage = set;

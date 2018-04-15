@@ -1,9 +1,10 @@
 package me.retrodaredevil.pokecreator.pokemon.type;
 
+
+import com.sun.istack.internal.Nullable;
+
 import java.util.Arrays;
 import java.util.List;
-
-import org.eclipse.jdt.annotation.Nullable;
 
 
 
